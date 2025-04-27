@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alok's Portfolio</title>
+
+  <!---favicon-->
+  <link rel="shortcut icon" href="images/main_avatar.png" type="image/x-icon">
+
+  <!--css link-->
+  <link rel="stylesheet" href="/style.css">
+
+  <!---google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--- #MAIN-->
+
+  <main>
+
+    <!--- #SIDEBAR-->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="images/main_avatar.png" alt="Alok Avatar" width="100">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Alok Kumar Gupta">Alok Kumar Gupta</h1>
+          <p class="title" ><b>Designer & Frontend Developer</b></p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+
+        <!--Sidebar lists email,linkdin,contact,location-->
+        <ul class="contacts-list">
+          <!--mail-->
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <!-- <p class="contact-title">Email</p> -->
+              <a href="mailto:work.alokgupta@gmail.com" class="contact-link"><b>Email</b></a>
+            </div>
+          </li>
+
+          <!--linkdin-->
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <!-- <p class="contact-title">LinkdIn</p> -->
+              <a href="https://www.linkedin.com/in/trooperr/" class="contact-link"><b>Linkedin</b></a>
+            </div>
+          </li>
+
+          <!--phone-->
+          <li class="contact-item">
+            <div class="icon-box">
+              <img src="images/Leetcode.png" alt="design icon" width="25">
+             <!-- <ion-icon name="phone-portrait-outline"></ion-icon> -->
+            </div>
+            <div class="contact-info">
+              <!-- <p class="contact-title"></p> -->
+              <a href="https://leetcode.com/u/trooperr" class="contact-link"><Problem><b>Problem Solving</b></a>
+            </div>
+          </li>
+
+          <!--location-->
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <!-- <p class="contact-title">Location</p> -->
+              <a href="https://www.google.com/maps/place/Lucknow,+Uttar+Pradesh/@26.8488213,80.8601115,28304m/data=!3m2!
+              1e3!4b1!4m6!3m5!1s0x399bfd991f32b16b:0x93ccba8909978be7!8m2!3d26.8466937!4d80.946166!16zL20vMDIydHE0?entry
+              =ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoASAFQAw%3D%3D" class="contact-link"><b>Location</b></a>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://x.com/trooooperr" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/trooooperr" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/_gupta.alok_" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--- #main-content-->
+
+    <div class="main-content">
+
+      <!-- #NAVBAR-->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m Alok, a Web Developer from India, specializing in building fast, responsive, and user-friendly websites. I 
+            enjoy turning ideas into real-world web solutions using technologies like HTML, CSS, JavaScript, and React.js. 
+            I create websites that are not only attractive but also optimized for performance and user experience.
+          </p>
+
+          <p>
+            My goal is to develop websites that are functional, easy to navigate, and tailored to your needs. Every project
+             I work on carries a personal touch to ensure it stands out and delivers real value. I am passionate about
+              constantly learning new skills and pushing the limits of what’s possible in web development, helping brands
+               and businesses grow in the digital world.
+          </p>
+        </section>
+
+
+        <!--- service-->
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="images/icon-design.png" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Designing sleek, modern interfaces that deliver unforgettable UX.
+
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="images/icon-webDev.png" alt="Web development icon" width="55">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  Building powerful, high-performing websites for real-world impact.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="images/icon-problemsolving.png" alt="Problem Solving" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Problem Solving</h4>
+                <p class="service-item-text">
+                  Transforming complex problems into scalable, and efficient solutions.
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="images/icon-graphic.png" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic Designing</h4>
+                <p class="service-item-text">
+                  Crafting eye-catching visuals that elevate brands and bring ideas to life.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+       <!--- testimonials-->
+<section class="testimonials">
+  <h3 class="h3 testimonials-title">Testimonials</h3>
+
+  <ul class="testimonials-list has-scrollbar">
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <img src="images/relectrovent_logo.png" alt="avatar-1" width="20px" height="70" data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Relectrovent</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Working with Alok was an exceptional experience. His creativity, dedication, and attention to detail
+            truly set him apart. At Relectrovent, we trusted him with crucial design and development tasks, and 
+            he consistently delivered high-quality work that exceeded our expectations. Alok’s ability to understand
+            project requirements, suggest innovative ideas, and execute them flawlessly made a real impact on our 
+            brand presence. We are confident he will bring the same energy and excellence to every project he 
+            undertakes.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <img src="images/soulo-logo.png" alt="avatar-2" width="50" height="70" data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Soulo</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Alok has been an essential part of SOULO’s creative journey. 
+            His innovative designs, strong work ethic, and commitment to quality have helped elevate our brand image.
+            He approaches every project with passion and professionalism, consistently delivering beyond expectations.
+            We are proud to have him as part of the SOULO team.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <img src="images/SRU_logo.png" alt="avatar-3" width="60" data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>SRU</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Working with Alok on the redesign of our SRU frontend was an incredible experience! 
+            His expertise in web design and branding truly brought our vision to life. Alok’s meticulous attention 
+            to detail and ability to understand our needs made the entire design process seamless. The fresh,
+             user-friendly interface has greatly improved our brand identity, and we’ve seen a positive response from 
+             our users. Alok’s innovative graphic designs have elevated the overall look and feel of the SRU platform,
+              helping us stand out in the market. 
+
+          </p>
+        </div>
+
+      </div>
+    </li>
+  </ul>
+
+  <!--- Add a clearfix or another way to ensure elements stack correctly-->
+  <div style="clear: both;"></div>
+
+</section>
+
+<!--- testimonials modal-->
+<div class="modal-container" data-modal-container>
+  <div class="overlay" data-overlay></div>
+
+  <section class="testimonials-modal">
+
+    <button class="modal-close-btn" data-modal-close-btn>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="modal-img-wrapper">
+      <figure class="modal-avatar-box">
+        <img src="images/avatar-2.png" alt="Daniel lewis" width="80" data-modal-img>
+      </figure>
+    </div>
+
+    <div class="modal-content">
+      <h4 class="h3 modal-title" data-modal-title>Relectrovent Team</h4>
+
+      <div data-modal-text>
+        <p>
+          Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+          lot of experience and is very concerned about the needs of the client.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+</div>
+
+
+        <!-- - clients
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="images/amiritoxy_logo.png" alt="client logo"  height="140px" width="70px">
+              </a>
+            </li>
+
+                   
+            <li class="clients-item" style="display: flex; margin: 0px; padding: 0px">
+              <a href="#">
+                <img src="images/SRU_logo.png" alt="client logo"  height="160px" width="140px">
+              </a>
+            </li>
+
+            <li class="clients-item" style="display: flex; margin: 0px; padding: 0px">
+              <a href="#">
+                <img src="images/relectrovent_logo.png" alt="client logo"  height="130px" width="100px" >
+              </a>
+            </li> 
+
+            
+             <li class="clients-item">
+              <a href="#">
+                <img src="images/soulo_logo.png" alt="client logo"  height="190px" width="100px">
+              </a>
+            </li> -->
+
+       
+
+          <!-- </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Pranveer Singh Institute of Technology</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                I am currently pursuing my Bachelor’s degree in Computer Science at Pranveer Singh Institute of Technology (PSIT), Kanpur. 
+                PSIT has provided me with a strong foundation in technology, innovation, and problem-solving.
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Red Rose Public School</h4>
+
+              <span>2020 — 2022</span>
+
+              <p class="timeline-text">
+                I pursued my Intermediate education at Red Rose Senior Secondary School, Lucknow, where I cultivated a profound academic 
+                foundation while fostering a deep-seated passion for technological innovation and intellectual exploration.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Red Rose Public School</h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                I completed my high school education at Red Rose Senior Secondary School, Lucknow,
+                s where I built a strong academic foundation and nurtured my passion for technology and creativity.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Web designer</h4>
+  
+                <!-- <span>2024 — Present</span> -->
+  
+                <p class="timeline-text">
+                  Designed a user-friendly and visually appealing
+                   frontend for an e-waste management company, ensuring seamless navigation and a strong digital presence.
+                </p>
+  
+              </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer</h4>
+
+              <!-- <span>2024 — Present</span> -->
+
+              <p class="timeline-text">
+                Developed and maintained websites, focusing on performance, responsiveness, 
+                and functionality, delivering solutions that enhance user experience and meet business needs.
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graphic Designer</h4>
+
+              <!-- <span>2023 — Present</span> -->
+
+              <p class="timeline-text">
+                Designed compelling and impactful visuals for various projects, focusing on creating a strong brand 
+                identity and high-quality digital content that aligns perfectly with client goals and enhances their 
+                online presence.
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Problem Solving</h5>
+                <data value="50">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Branding</h5>
+                  <data value="50">80%</data>
+                </div>
+  
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Graphic Design</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Graphic Design</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.canva.com/design/DAGSDiJ4Ym4/dx4WNp1lV5kHyCEG0YDQ-w/view?utm_content=DAGSDiJ4Y
+              m4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha2f4e99854
+
+              ">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/WebDesign-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Waste Management Website</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.canva.com/design/DAGlxfetxz4/UyoECG9QPThejg3kShWtdQ/view?utm_content=DAGlxfetxz4&utm_
+              campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h711dea538c">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/WebDesign-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio Website</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.canva.com/design/DAGlxROzI00/vQiGB5AJ2v2dxncyKJ__3g/view?utm_content=DAGlxROzI
+              00&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf102e7bc54">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/WebDesign-3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Resturant Website</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="https://www.canva.com/design/DAGiErjOM8s/QZFRyWsuVd5EiYf0_v6B3A/view?utm_content=DAGiErjOM8s&utm_campaign=de
+              signshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7c405a6962">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/Graphic-1 .jpg" alt="AmritOxy" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AmritOx</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="https://www.canva.com/design/DAGlxutwEhg/Ar6Ef4Iv5s4-hMIMdykMsA/view?utm_content=DAGlxutwEhg&utm
+              _campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5ab06eec82">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/Graphic-2.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SRU</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="https://www.canva.com/design/DAGiLm61EJc/hH1Yr7JQy_qWHFvuzAd36Q/view?utm_content=DAGiLm61EJc&utm_camp
+              aign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0b337ae152">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/Graphic-3.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Soulo</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+            <!-- <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/WebD1.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/WebD2.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/WebD3.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="images/blog-1.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Web Development</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Apr 19, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">My Journey in Web Development</h3>
+
+                  <p class="blog-text">
+                    My web development journey began from scratch, starting with the basics of HTML, CSS, and JavaScript. Over time,
+                     I advanced to building dynamic websites using React.js and mastered backend development with Node.js and Express.js.
+                     Integrating databases like MongoDB helped me create full-stack applications that solve real-world problems. This
+                      progression has been both challenging and rewarding, and I’m continuously excited to learn more and build impactful 
+                      web projects.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="images/blog-2.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Problem Solving</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Mar 15, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">How I Approach Problem-Solving in DSA</h3>
+
+                  <p class="blog-text">
+                    When tackling problems in Data Structures and Algorithms (DSA), I follow a systematic approach: first, 
+                    I ensure I fully understand the problem, then I select the right data structure and write pseudocode to 
+                    outline the solution. Once I begin coding, I test for edge cases and optimize the solution for time and
+                     space complexity. By focusing on strategies like divide and conquer, dynamic programming, and greedy
+                      algorithms, I develop efficient, scalable solutions that are ready for real-world application.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="images/blog-3.png" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Web Development</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 05, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Building a Responsive Website</h3>
+
+                  <p class="blog-text">
+                    Building responsive websites is crucial in today’s mobile-first world. I focus on a mobile-first design, 
+                    using CSS media queries and flexible grids to ensure that my websites adapt seamlessly to all screen sizes.
+                     Employing techniques like viewport meta tags, flexbox, and CSS grid guarantees a smooth user experience 
+                     across devices, from desktops to smartphones. Testing across various platforms and optimizing images 
+                     further enhances performance, making my websites fast, accessible, and user-friendly.
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="images/blog-4.png" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Web Development</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Nov 22, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Understanding JavaScript</h3>
+
+                  <p class="blog-text">
+                    JavaScript is the backbone of modern web development, and mastering key concepts like closures,
+                     promises, async/await, and event delegation has been essential in building interactive, dynamic 
+                     websites. I apply these concepts to manage asynchronous operations, optimize event handling, and
+                      modularize my code. By utilizing JavaScript modules, I can keep my code organized and reusable, 
+                      ensuring both scalability and maintainability in complex web applications.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="images/blog-5.png" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Oct 24, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Principles for a Great User Experience</h3>
+
+                  <p class="blog-text">
+                    In web design, I focus on creating clean, intuitive layouts that enhance user experience. 
+                    Using principles like visual hierarchy, white space, and contrast, I ensure that the content is
+                     easy to read and navigate. I also prioritize responsive design to make sure the site functions 
+                     perfectly across all devices. Whether designing simple landing pages or complex web applications,
+                      my goal is to combine aesthetics with functionality, delivering a seamless experience for users.
+
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="images/blog-6.png" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Aug 13, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Bringing Ideas to Life Through Visual Storytelling</h3>
+
+                  <p class="blog-text">
+                    Graphic design is all about translating ideas into visual concepts. I work with tools like Adobe 
+                    Illustrator, Photoshop, and Figma to create logos, brochures, and promotional materials that capture 
+                    the essence of a brand. Whether designing for digital platforms or print, I focus on effective use of
+                     colors, typography, and imagery to communicate messages clearly and engagingly. My design approach 
+                     combines creativity with strategic thinking to ensure the visual identity aligns with the brand’s core
+                      values and resonates with the audience.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.7506631591295!2d80.94313367467367!3d26.846693676686527!
+                2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be2aeaa87f979%3A0x70cf36c6b6ad720!2sLucknow%2C%20Uttar%20
+                Pradesh!5e0!3m2!1sen!2sin!4v1680863795516!5m2!1sen!2sin"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </figure>
+          </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form class="form" data-form method="post" action="/create">
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message"  required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
