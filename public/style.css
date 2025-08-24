@@ -314,11 +314,16 @@ main {
   gap: 15px;
 }
 
-.avatar-box {
+/* .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 10px;
-  
-}
+  border: 1px solid rgb(0, 0, 0);
+  height: 350px;
+  width: 150px;  
+} */
+ .profile-photo{
+  border: 0.2px solid white;
+ }
+
 
 .info-content .name {
   color: var(--white-2);
@@ -1012,118 +1017,142 @@ main {
 
 
 
-
-
 /*-----------------------------------*\
-  #BLOG
+  #PROJECTS
 \*-----------------------------------*/
 
-.blog-posts { margin-bottom: 10px; }
+.projects-list { margin-bottom: 20px; }
 
-.blog-posts-list {
+.project-cards {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
 }
 
-.blog-post-item > a {
-  position: relative;
-  background: var(--border-gradient-onyx);
-  height: 100%;
-  box-shadow: var(--shadow-4);
-  border-radius: 16px;
-  z-index: 1;
-}
-
-.blog-post-item > a::before {
-  content: "";
-  position: absolute;
-  inset: 1px;
-  border-radius: inherit;
+.project-card {
   background: var(--eerie-black-1);
-  z-index: -1;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.blog-banner-box {
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+}
+
+.project-banner {
+  position: relative;
   width: 100%;
-  height: 200px;
-  border-radius: 12px;
+  height: 220px;
   overflow: hidden;
 }
 
-.blog-banner-box img {
+.project-banner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: var(--transition-1);
+  transition: transform 0.4s ease;
 }
 
-.blog-post-item > a:hover .blog-banner-box img { transform: scale(1.1); }
-
-.blog-content { padding: 15px; }
-
-.blog-meta {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 7px;
-  margin-bottom: 10px;
+.project-card:hover .project-banner img {
+  transform: scale(1.1);
 }
 
-.blog-meta :is(.blog-category, time) {
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
+}
+
+/* Content */
+.project-content {
+  padding: 18px 20px;
+}
+
+.project-title {
+  margin-bottom: 8px;
+  font-size: var(--fs-3);
+  font-weight: var(--fw-600);
+  color: var(--orange-yellow-crayola);
+  transition: color 0.3s ease;
+}
+
+.project-card:hover .project-title {
+  color: var(--light-gray);
+}
+
+.project-text {
   color: var(--light-gray-70);
   font-size: var(--fs-6);
-  font-weight: var(--fw-300);
-}
-
-.blog-meta .dot {
-  background: var(--light-gray-70);
-  width: 4px;
-  height: 4px;
-  border-radius: 4px;
-}
-
-.blog-item-title {
-  margin-bottom: 10px;
-  line-height: 1.3;
-  transition: var(--transition-1);
-}
-
-.blog-post-item > a:hover .blog-item-title { color: var(--orange-yellow-crayola); }
-
-.blog-text {
-  color: var(--light-gray);
-  font-size: var(--fs-6);
-  font-weight: var(--fw-300);
+  margin-bottom: 15px;
   line-height: 1.6;
 }
 
+/* Tech Stack */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
 
+.tech-stack span {
+  background: linear-gradient(135deg, #ffb347, #ffcc33);
+  color: #111;
+  font-size: 12px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(255, 204, 51, 0.5);
+  transition: transform 0.2s ease;
+}
 
+.tech-stack span:hover {
+  transform: scale(1.1);
+}
 
+/* Buttons */
+.project-links {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.primary-btn {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #111;
+}
+
+.primary-btn:hover {
+  background: linear-gradient(135deg, #fad0c4, #ff9a9e);
+  transform: translateY(-3px);
+}
+
+.github-btn {
+  background: #24292e;
+  color: #fff;
+}
+
+.github-btn:hover {
+  background: #444c56;
+  transform: translateY(-3px);
+}
 
 /*-----------------------------------*\
   #CONTACT
 \*-----------------------------------*/
 
-.mapbox {
-  position: relative;
-  height: 250px;
-  width: 100%;
-  border-radius: 16px;
-  margin-bottom: 30px;
-  border: 1px solid var(--jet);
-  overflow: hidden;
-}
-
-.mapbox figure { height: 100%; }
-
-.mapbox iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  filter: grayscale(1) invert(1);
-}
 
 .contact-form { margin-bottom: 10px; }
 
@@ -1498,14 +1527,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-  /**
-   * #CONTACT
-   */
 
-  .mapbox {
-    height: 380px;
-    border-radius: 18px;
-  }
 
   .input-wrapper {
     gap: 30px;

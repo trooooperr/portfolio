@@ -31,7 +31,7 @@
 
       <div class="sidebar-info">
         <figure class="avatar-box">
-          <img src="images/main_avatar.png" alt="Alok Avatar" width="100">
+          <img src="images/profile-photo.png" alt="Alok Avatar" class="profile-photo">
         </figure>
 
         <div class="info-content">
@@ -153,7 +153,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
+            <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
           <li class="navbar-item">
@@ -485,7 +485,7 @@
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+             <ion-icon name="book-outline"></ion-icon>
             </div>
 
             <h3 class="h3">Experience</h3>
@@ -746,6 +746,25 @@
               </a>
             </li>
 
+              <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.canva.com/design/DAGlxROzI00/vQiGB5AJ2v2dxncyKJ__3g/view?utm_content=DAGlxROzI
+              00&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf102e7bc54">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/WebDesign-3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Resturant Website</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
             <li class="project-item  active" data-filter-item data-category="graphic design">
               <a href="https://www.canva.com/design/DAGiErjOM8s/QZFRyWsuVd5EiYf0_v6B3A/view?utm_content=DAGiErjOM8s&utm_campaign=de
               signshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7c405a6962">
@@ -866,221 +885,85 @@
 
 
 
+<!--
+  - #PROJECTS
+-->
 
-      <!--
-        - #BLOG
-      -->
+<article class="projects" data-page="projects">
 
-      <article class="blog" data-page="blog">
+  <header>
+    <h2 class="h2 article-title">Projects</h2>
+  </header>
 
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
+  <section class="projects-list">
 
-        <section class="blog-posts">
+    <ul class="project-cards">
 
-          <ul class="blog-posts-list">
+      <!-- Project 1 -->
+      <li class="project-card">
+        <div class="project-banner-box">
+          <img src="images/project-1.png" alt="Health Monitoring Website" loading="lazy">
+        </div>
 
-            <li class="blog-post-item">
-              <a href="#">
+        <div class="project-content">
 
-                <figure class="blog-banner-box">
-                  <img src="images/blog-1.png" alt="Design conferences in 2022" loading="lazy">
-                </figure>
+          <h3 class="h3 project-title">Health Monitoring Website</h3>
 
-                <div class="blog-content">
+          <p class="project-text">
+            A full-stack health tracking platform with exercise levels, AI personal trainer, and diet recommendations.
+          </p>
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Web Development</p>
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+          </div>
 
-                    <span class="dot"></span>
+          <div class="project-links">
+            <a href="https://your-live-site.com" target="_blank" class="btn">Live Website</a>
+            <a href="https://github.com/your-repo" target="_blank" class="btn github-btn">GitHub</a>
+          </div>
 
-                    <time datetime="2022-02-23">Apr 19, 2025</time>
-                  </div>
+        </div>
+      </li>
 
-                  <h3 class="h3 blog-item-title">My Journey in Web Development</h3>
+      <!-- Project 2 -->
+      <li class="project-card">
+        <div class="project-banner-box">
+          <img src="images/project-2.png" alt="ShramSetu Platform" loading="lazy">
+        </div>
 
-                  <p class="blog-text">
-                    My web development journey began from scratch, starting with the basics of HTML, CSS, and JavaScript. Over time,
-                     I advanced to building dynamic websites using React.js and mastered backend development with Node.js and Express.js.
-                     Integrating databases like MongoDB helped me create full-stack applications that solve real-world problems. This
-                      progression has been both challenging and rewarding, and I’m continuously excited to learn more and build impactful 
-                      web projects.
-                  </p>
+        <div class="project-content">
 
-                </div>
+          <h3 class="h3 project-title">ShramSetu Platform</h3>
 
-              </a>
-            </li>
+          <p class="project-text">
+            A digital labor hiring system connecting workers and users directly with bidding & AI pricing suggestions.
+          </p>
 
-            <li class="blog-post-item">
-              <a href="#">
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>TailwindCSS</span>
+            <span>React</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+          </div>
 
-                <figure class="blog-banner-box">
-                  <img src="images/blog-2.png" alt="Best fonts every designer" loading="lazy">
-                </figure>
+          <div class="project-links">
+            <a href="https://your-live-site.com" target="_blank" class="btn">Live Website</a>
+            <a href="https://github.com/your-repo" target="_blank" class="btn github-btn">GitHub</a>
+          </div>
 
-                <div class="blog-content">
+        </div>
+      </li>
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Problem Solving</p>
+    </ul>
 
-                    <span class="dot"></span>
+  </section>
 
-                    <time datetime="2022-02-23">Mar 15, 2025</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">How I Approach Problem-Solving in DSA</h3>
-
-                  <p class="blog-text">
-                    When tackling problems in Data Structures and Algorithms (DSA), I follow a systematic approach: first, 
-                    I ensure I fully understand the problem, then I select the right data structure and write pseudocode to 
-                    outline the solution. Once I begin coding, I test for edge cases and optimize the solution for time and
-                     space complexity. By focusing on strategies like divide and conquer, dynamic programming, and greedy
-                      algorithms, I develop efficient, scalable solutions that are ready for real-world application.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="images/blog-3.png" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Web Development</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Feb 05, 2025</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Building a Responsive Website</h3>
-
-                  <p class="blog-text">
-                    Building responsive websites is crucial in today’s mobile-first world. I focus on a mobile-first design, 
-                    using CSS media queries and flexible grids to ensure that my websites adapt seamlessly to all screen sizes.
-                     Employing techniques like viewport meta tags, flexbox, and CSS grid guarantees a smooth user experience 
-                     across devices, from desktops to smartphones. Testing across various platforms and optimizing images 
-                     further enhances performance, making my websites fast, accessible, and user-friendly.
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="images/blog-4.png" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Web Development</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Nov 22, 2024</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Understanding JavaScript</h3>
-
-                  <p class="blog-text">
-                    JavaScript is the backbone of modern web development, and mastering key concepts like closures,
-                     promises, async/await, and event delegation has been essential in building interactive, dynamic 
-                     websites. I apply these concepts to manage asynchronous operations, optimize event handling, and
-                      modularize my code. By utilizing JavaScript modules, I can keep my code organized and reusable, 
-                      ensuring both scalability and maintainability in complex web applications.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="images/blog-5.png" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Oct 24, 2024</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Principles for a Great User Experience</h3>
-
-                  <p class="blog-text">
-                    In web design, I focus on creating clean, intuitive layouts that enhance user experience. 
-                    Using principles like visual hierarchy, white space, and contrast, I ensure that the content is
-                     easy to read and navigate. I also prioritize responsive design to make sure the site functions 
-                     perfectly across all devices. Whether designing simple landing pages or complex web applications,
-                      my goal is to combine aesthetics with functionality, delivering a seamless experience for users.
-
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="images/blog-6.png" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Aug 13, 2024</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Bringing Ideas to Life Through Visual Storytelling</h3>
-
-                  <p class="blog-text">
-                    Graphic design is all about translating ideas into visual concepts. I work with tools like Adobe 
-                    Illustrator, Photoshop, and Figma to create logos, brochures, and promotional materials that capture 
-                    the essence of a brand. Whether designing for digital platforms or print, I focus on effective use of
-                     colors, typography, and imagery to communicate messages clearly and engagingly. My design approach 
-                     combines creativity with strategic thinking to ensure the visual identity aligns with the brand’s core
-                      values and resonates with the audience.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
+</article>
 
 
       <!--
@@ -1093,16 +976,7 @@
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
-        <section class="mapbox" data-mapbox>
-            <figure>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.7506631591295!2d80.94313367467367!3d26.846693676686527!
-                2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be2aeaa87f979%3A0x70cf36c6b6ad720!2sLucknow%2C%20Uttar%20
-                Pradesh!5e0!3m2!1sen!2sin!4v1680863795516!5m2!1sen!2sin"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
-            </figure>
-          </section>
+
 
         <section class="contact-form">
 
@@ -1125,28 +999,16 @@
           </form>
 
         </section>
-
       </article>
-
     </div>
-
   </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
+  <!---custom js link-->
   <script src="/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!---ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 
 </body>
 
