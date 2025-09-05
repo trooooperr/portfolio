@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -45,23 +46,23 @@
               <ion-icon name="logo-linkedin"></ion-icon>
             </div>
             <div class="contact-info">
-              <a href="https://www.linkedin.com/in/trooperr/" class="contact-link"><b>Linkedin</b></a>
+              <a href="https://www.linkedin.com/in/trooperr/" target="_blank" class="contact-link"><b>LinkedIn</b></a>
             </div>
           </li>
           <li class="contact-item">
             <div class="icon-box">
-              <img src="images/Leetcode.png" alt="Leetcode icon" width="25">
+              <i class="fa-solid fa-code"></i>
             </div>
             <div class="contact-info">
-              <a href="https://leetcode.com/u/trooperr" class="contact-link"><b>Problem Solving</b></a>
+              <a href="https://leetcode.com/u/trooperr" target="_blank" class="contact-link"><b>LeetCode</b></a>
             </div>
           </li>
           <li class="contact-item">
             <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
+              <ion-icon name="link-outline"></ion-icon>
             </div>
             <div class="contact-info">
-              <a href="https://www.google.com/maps/place/Lucknow,+Uttar+Pradesh/@26.8488213,80.8601115,28304m/data=!3m2!1e3!4b1!4m6!3m5!1s0x399bfd991f32b16b:0x93ccba8909978be7!8m2!3d26.8466937!4d80.946166!16zL20vMDIydHE0?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoASAFQAw%3D%3D" class="contact-link"><b>Location</b></a>
+              <a href="https://linktr.ee/trooooperr" target="_blank" class="contact-link"><b>Linktree</b></a>
             </div>
           </li>
         </ul>
@@ -85,36 +86,35 @@
         </ul>
       </div>
     </aside>
+
     <div class="main-content">
       <nav class="navbar">
         <ul class="navbar-list">
           <li class="navbar-item">
-            <button class="navbar-link active" data-nav-link>About</button>
+            <button class="navbar-link active" data-nav-link data-page-name="about">About</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link data-page-name="resume">Resume</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Workdone</button>
+            <button class="navbar-link" data-nav-link data-page-name="my-work">My Work</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projects</button>
+            <button class="navbar-link" data-nav-link data-page-name="projects">Projects</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
+            <button class="navbar-link" data-nav-link data-page-name="contact">Contact</button>
           </li>
         </ul>
       </nav>
+
       <article class="about active" data-page="about">
         <header>
           <h2 class="h2 article-title">About me</h2>
         </header>
         <section class="about-text">
           <p>
-            I’m Alok, a Web Developer from India, specializing in building fast, responsive, and user-friendly websites. I enjoy turning ideas into real-world web solutions using technologies like HTML, CSS, JavaScript, and React.js. I create websites that are not only attractive but also optimized for performance and user experience.
-          </p>
-          <p>
-            My goal is to develop websites that are functional, easy to navigate, and tailored to your needs. Every project I work on carries a personal touch to ensure it stands out and delivers real value. I am passionate about constantly learning new skills and pushing the limits of what’s possible in web development, helping brands and businesses grow in the digital world.
+            B.Tech student with a strong foundation in Data Structures & Algorithms, skilled in core CS subjects like OS and DBMS, and experienced in building projects with clean UI, optimized performance, and seamless user experience. Eager to learn and continuously improve problem-solving and development skills while contributing to impactful solutions. Also experienced in creating engaging visuals using Canva for brands, events, and startups—designing social media creatives and promotional content that enhance digital presence and brand growth.
           </p>
         </section>
         <section class="service">
@@ -166,211 +166,120 @@
             </li>
           </ul>
         </section>
-
-        <!-- ================= Skills & Achievements ================= -->
-<section class="skills-achievements">
-  <div class="title-wrapper">
-
-    <h3 class="h3">My Skills & Achievements</h3>
-  </div>
-
-  <!-- Technical Skills -->
-  <div class="skill-category">
-    <h4 class="skill-subtitle">Web Development Skills</h4>
-    <div class="skills-carousel">
-      <div class="skills-track">
-        <div class="skill-slide"><img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="HTML"><span>HTML</span></div>
-        <div class="skill-slide"><img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS"><span>CSS</span></div>
-        <div class="skill-slide"><img src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt="JavaScript"><span>JavaScript</span></div>
-        <div class="skill-slide"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React"><span>React</span></div>
-        <div class="skill-slide"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="Node.js"><span>Node.js</span></div>
-        <div class="skill-slide"><img src="https://images.icon-icons.com/2415/PNG/512/mongodb_plain_logo_icon_146422.png" alt="Node.js"><span>MongoDB</span></div>
-        <div class="skill-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png" alt="Node.js"><span>TailwindCSS</span></div>
-        <div class="skill-slide"><img src="https://images.seeklogo.com/logo-png/33/1/express-js-logo-png_seeklogo-339850.png" alt="Node.js"><span>ExpressJS</span></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Designing Skills -->
-  <div class="skill-category">
-    <h4 class="skill-subtitle">Designing Skills</h4>
-    <div class="skills-carousel">
-      <div class="skills-track">
-        <div class="skill-slide"><img src="https://www.simplihire.com/wp-content/uploads/2023/09/ux-ui-logo.png" alt="Photoshop"><span>UI UX</span></div>
-        <div class="skill-slide"><img src="https://png.pngtree.com/png-vector/20231011/ourmid/pngtree-rgb-vector-color-theory-poster-png-image_10216347.png" alt="Illustrator"><span>Color Theory</span></div>
-        <div class="skill-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Figma-1-logo.png" alt="Figma"><span>Figma</span></div>
-        <div class="skill-slide"><img src="https://www.pngmart.com/files/23/Canva-Logo-PNG-File.png" alt="Adobe XD"><span>Canva</span></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Other Skills -->
-  <div class="skill-category">
-    <h4 class="skill-subtitle">Other Technical Skills</h4>
-    <div class="skills-carousel">
-      <div class="skills-track">
-        <div class="skill-slide"><img src="https://cdn.worldvectorlogo.com/logos/git-icon.svg" alt="Git"><span>Git</span></div>
-        <div class="skill-slide"><img src="https://cdn.worldvectorlogo.com/logos/github-icon.svg" alt="GitHub"><span>GitHub</span></div>
-        <div class="skill-slide"><img src="https://cdn.worldvectorlogo.com/logos/linux-tux.svg" alt="Linux"><span>Linux</span></div>
-        <div class="skill-slide"><img src="https://www.clipartmax.com/png/small/351-3515666_c-language-global-or-external-variables-with-examples-c-programming-logo.png" alt="Linux"><span>C</span></div>
-        <div class="skill-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png" alt="Linux"><span>C++</span></div>
-        <div class="skill-slide"><img src="https://cdn.worldvectorlogo.com/logos/linux-tux.svg" alt="Linux"><span>Linux</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<style>
-.skills-achievements { margin-top: 40px; }
-.skills-achievements .title-wrapper { display: flex; align-items: center; gap: 15px; margin-bottom: 25px; }
-.skills-achievements .icon-box {
-  background: rgba(154, 121, 1, 0.15);
-  color: #c08000;
-  font-size: 20px;
-  padding: 8px;
-  border-radius: 10px;
-}
-.skills-achievements .h3 { color: #fff; }
-
-/* Skill Categories */
-.skill-category { margin-bottom: 30px; }
-.skill-subtitle { font-size: 1.2rem; font-weight: 600; color: #fff; margin-bottom: 12px; }
-
-/* Carousel */
-.skills-carousel {
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-}
-
-.skills-track {
-  display: flex;
-  gap: 12px;
-  animation: scroll 20s linear infinite;
-}
-
-.skill-slide {
-  flex: 0 0 auto;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 10px;
-  padding: 8px 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-width: 70px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.skill-slide img {
-  width: 30px;
-  height: 30px;
-  margin-bottom: 4px;
-}
-
-.skill-slide span {
-  color: #ffd166;
-  font-size: 0.75rem;
-  font-weight: 500;
-  text-align: center;
-}
-
-.skill-slide:hover {
-  box-shadow: 0 6px 16px rgba(209, 155, 9, 0.3);
-  border-color: rgba(143,129,0,0.5);
-}
-
-/* Infinite scroll with duplicated slides for continuous loop */
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-/* Responsive */
-@media(max-width:768px){
-  .skills-track { animation-duration: 30s; gap: 10px; }
-  .skill-slide { min-width: 60px; padding: 6px; }
-  .skill-slide img { width: 25px; height: 25px; }
-  .skill-slide span { font-size: 0.7rem; }
-}
-</style>
-
-<script>
-const track = document.querySelector('.skills-track');
-const slides = Array.from(track.children);
-
-// Clone all slides
-slides.forEach(slide => {
-  const clone = slide.cloneNode(true);
-  track.appendChild(clone);
-});
-</script>
-
-        <section class="testimonials">
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <img src="images/soulo-logo.png" alt="avatar-2" width="60" height="70" style="padding: 4px;" data-testimonials-avatar>
-                </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>SOULO</h4>
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Alok has been an essential part of SOULO’s creative journey. His innovative designs, strong work ethic, and commitment to quality have helped elevate our brand image. He approaches every project with passion and professionalism, consistently delivering beyond expectations. We are proud to have him as part of the SOULO team.
-                  </p>
+        <section class="skills-section-unified">
+          <header>
+            <h2 class="h2 article-title-center">My Skills</h2>
+          </header>
+          <div class="skills-scroller-group">
+            <h3 class="h3 skill-category-title-left">💻 Development Skills</h3>
+            <div class="skills-scroller-combined">
+              <div class="skills-track-combined dev-track">
+                <div class="skill-pill-themed">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+                  <p class="skill-name-pill">React</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+                  <p class="skill-name-pill">Node.js</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+                  <p class="skill-name-pill">MongoDB</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://www.peanutsquare.com/wp-content/uploads/2024/04/Express.png" alt="ExpressJS" />
+                  <p class="skill-name-pill">ExpressJS</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s" alt="TailwindCSS" />
+                  <p class="skill-name-pill">TailwindCSS</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                  <p class="skill-name-pill">JavaScript</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+                  <p class="skill-name-pill">HTML</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+                  <p class="skill-name-pill">CSS</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://cdn.worldvectorlogo.com/logos/framer-motion.svg" alt="Framer Motion" />
+                  <p class="skill-name-pill">Framer Motion</p>
                 </div>
               </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <img src="images/SRU_logo.png" alt="avatar-3" width="70" height="70" data-testimonials-avatar>
-                </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>SRU</h4>
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Working with Alok on the redesign of our SRU frontend was an incredible experience! His expertise in web design and branding truly brought our vision to life. Alok’s meticulous attention to detail and ability to understand our needs made the entire design process seamless. The fresh, user-friendly interface has greatly improved our brand identity, and we’ve seen a positive response from our users. Alok’s innovative graphic designs have elevated the overall look and feel of the SRU platform, helping us stand out in the market.
-                  </p>
+            </div>
+          </div>
+          <div class="skills-scroller-group">
+            <h3 class="h3 skill-category-title-left">🎨 Designing Skills</h3>
+            <div class="skills-scroller-combined">
+              <div class="skills-track-combined design-track">
+                <div class="skill-pill-themed">
+                  <img src="https://1000logos.net/wp-content/uploads/2020/03/Canva-icon.png" alt="Canva" />
+                  <p class="skill-name-pill">Canva</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
+                  <p class="skill-name-pill">Figma</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968520.png" alt="Photoshop" />
+                  <p class="skill-name-pill">Photoshop</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/2101px-Adobe_Illustrator_CC_icon.svg.png" alt="Illustrator" />
+                  <p class="skill-name-pill">Illustrator</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="UI/UX" />
+                  <p class="skill-name-pill">UI/UX</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://cdn-icons-png.flaticon.com/512/2917/2917995.png" alt="Color Theory" />
+                  <p class="skill-name-pill">Color Theory</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://static.vecteezy.com/system/resources/previews/016/878/459/non_2x/typography-solid-icon-design-illustration-design-and-development-symbol-on-white-background-eps-10-file-vector.jpg" alt="Typography" />
+                  <p class="skill-name-pill">Typography</p>
                 </div>
               </div>
-            </li>
-              
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <img src="images/mangalam.png" alt="avatar-3" width="70" height="70" style="padding: 4px;" data-testimonials-avatar>
-                </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mangalam Events</h4>
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                     Alok has been an integral part of Mangalam Events’ growth journey. His creative marketing strategies, innovative designs, and strong dedication have played a key role in enhancing our brand presence. With his passion and professionalism, he consistently delivers impactful results that elevate our events. We are proud to have him as a valuable member of the Mangalam Events team.
-                  </p>
+            </div>
+          </div>
+          <div class="skills-scroller-group">
+            <h3 class="h3 skill-category-title-left">🛠 Other Technical Skills</h3>
+            <div class="skills-scroller-combined">
+              <div class="skills-track-combined other-track">
+                <div class="skill-pill-themed">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C" />
+                  <p class="skill-name-pill">C</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
+                  <p class="skill-name-pill">C++</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+                  <p class="skill-name-pill">Git</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-white-icon.png" alt="GitHub" />
+                  <p class="skill-name-pill">GitHub</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png" alt="Postman" />
+                  <p class="skill-name-pill">Postman</p>
+                </div>
+                <div class="skill-pill-themed">
+                  <img src="https://cdn-icons-png.flaticon.com/512/919/919853.png" alt="Docker" />
+                  <p class="skill-name-pill">Docker</p>
                 </div>
               </div>
-            </li>
-           
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <img src="images/humtum-logo.jpg" alt="avatar-2" width="50" height="70" data-testimonials-avatar>
-                </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>HUMTUM Cafeteria</h4>
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                   Alok created a POS system for HumTum Cafeteria that made our work much easier. With his system, billing became faster, managing orders got simpler, and customers had a smoother experience. His hard work and smart ideas really helped us improve our cafeteria. We are thankful for his effort and support.
-                </div>
-              </div>
-            </li>
-
-          </ul>
-          <div style="clear: both;"></div>
+            </div>
+          </div>
         </section>
-        
         <div class="modal-container" data-modal-container>
           <div class="overlay" data-overlay></div>
           <section class="testimonials-modal">
@@ -393,145 +302,115 @@ slides.forEach(slide => {
           </section>
         </div>
       </article>
+
       <article class="resume" data-page="resume">
-  <header>
-    <h2 class="h2 article-title">Resume</h2>
-  </header>
-
-  <!-- Education -->
-  <section class="timeline">
-    <div class="title-wrapper">
-      <div class="icon-box">
-        <ion-icon name="book-outline"></ion-icon>
-      </div>
-      <h3 class="h3">Education</h3>
-    </div>
-    <ol class="timeline-list">
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Pranveer Singh Institute of Technology</h4>
-        <span>2023 — Present</span>
-        <p class="timeline-text">
-          Pursuing Bachelor’s in Computer Science at PSIT Kanpur, building a strong foundation in technology, innovation, and problem-solving.
-        </p>
-      </li>
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Red Rose Public School</h4>
-        <span>2020 — 2022</span>
-        <p class="timeline-text">
-          Completed Intermediate with a strong academic base while nurturing my passion for technological innovation and creativity.
-        </p>
-      </li>
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Red Rose Public School</h4>
-        <span>2018 — 2020</span>
-        <p class="timeline-text">
-          Completed high school with a strong academic foundation and a deep interest in technology.
-        </p>
-      </li>
-    </ol>
-  </section>
-
-  <!-- Experience -->
-  <section class="timeline">
-    <div class="title-wrapper">
-      <div class="icon-box">
-        <ion-icon name="briefcase-outline"></ion-icon>
-      </div>
-      <h3 class="h3">Experience</h3>
-    </div>
-    <ol class="timeline-list">
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Web Designer</h4>
-        <p class="timeline-text">
-          Designed user-friendly and visually appealing frontend for an e-waste management company.
-        </p>
-      </li>
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Web Developer</h4>
-        <p class="timeline-text">
-          Developed responsive websites focusing on performance, accessibility, and user experience.
-        </p>
-      </li>
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Graphic Designer</h4>
-        <p class="timeline-text">
-          Created impactful visuals for brands ensuring strong identity and consistency.
-        </p>
-      </li>
-    </ol>
-  </section>
-
-
-
-<!-- Achievements -->
-<section class="achievements">
-  <div class="title-wrapper">
-    <div class="icon-box">
-      <ion-icon name="trophy-outline"></ion-icon>
-    </div>
-    <h3 class="h3">Achievements</h3>
-  </div>
-
-  <div class="achievements-grid">
-    <div class="achievement-card">
-      <div class="achievement-icon">
-        <img src="https://cdn.worldvectorlogo.com/logos/leetcode-1.svg" alt="LeetCode">
-      </div>
-      <div class="achievement-text">
-        <h4>300+ Problems</h4>
-        <p>Solved on LeetCode improving algorithms & problem-solving.</p>
-      </div>
-    </div>
-
-    <div class="achievement-card">
-      <div class="achievement-icon">
-        <img src="https://cdn.worldvectorlogo.com/logos/hackerrank.svg" alt="HackerRank">
-      </div>
-      <div class="achievement-text">
-        <h4>5⭐️ Coder</h4>
-        <p>Earned 5-star rating on HackerRank in C++ programming.</p>
-      </div>
-    </div>
-
-    <div class="achievement-card">
-      <div class="achievement-icon">
-        <ion-icon name="bulb-outline"></ion-icon>
-      </div>
-      <div class="achievement-text">
-        <h4>Smart India Hackathon</h4>
-        <p>Selected finalist in SIH 2024 with innovative ideas.</p>
-      </div>
-    </div>
-
-  </div>
-
-  
-</section>
-
-  <!-- Resume Actions -->
-<section class="resume-actions">
-  <button id="downloadBtn" class="action-btn">⬇️ Download PDF</button>
-</section>
-</article>
-
-<script>
-  document.getElementById("downloadBtn").addEventListener("click", () => {
-    // Path to your uploaded PDF inside project
-    const pdfUrl = "/images/resume.pdf";  
-
-    // Create hidden link for download
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "Resume.pdf"; // rename on download
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  });
-</script>
-  
-      <article class="workdone" data-page="workdone">
         <header>
-          <h2 class="h2 article-title">Workdone</h2>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Pranveer Singh Institute of Technology</h4>
+              <span>2023 — Present</span>
+              <p class="timeline-text">
+                Pursuing Bachelor’s in Computer Science at PSIT Kanpur with a CGPA of 7.7, building a strong foundation in technology, innovation, and problem-solving.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Red Rose Public School</h4>
+              <span>2020 — 2022</span>
+              <p class="timeline-text">
+                Completed Intermediate with 82%, building a strong academic foundation while nurturing a passion for technological innovation and creativity.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Red Rose Public School</h4>
+              <span>2018 — 2020</span>
+              <p class="timeline-text">
+                Completed High School with 94%, establishing a strong academic foundation and developing a deep interest in technology.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Designer</h4>
+              <p class="timeline-text">
+                Experienced in designing clean, responsive, and user-friendly interfaces that enhance usability and visual appeal. Skilled in creating layouts, selecting color schemes, and building intuitive navigation to deliver seamless user experiences across devices.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Developer</h4>
+              <p class="timeline-text">
+                Built responsive websites with clean UI, easy-to-understand content, optimized performance, and accessible, user-friendly experiences across devices.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Graphic Designer</h4>
+              <p class="timeline-text">
+                Designed and created impactful visuals for brands, ensuring a strong, cohesive, and consistent brand identity across digital and print platforms. Focused on engaging designs that effectively communicate brand values and resonate with target audiences.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="achievements">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Achievements</h3>
+          </div>
+          <div class="achievements-grid">
+            <div class="achievement-card">
+              <div class="achievement-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode">
+              </div>
+              <div class="achievement-text">
+                <h4>250+ Problems</h4>
+                <p>Solved on LeetCode improving algorithms & problem-solving.</p>
+              </div>
+            </div>
+            <div class="achievement-card">
+              <div class="achievement-icon">
+                <ion-icon name="trending-up-outline"></ion-icon>
+              </div>
+              <div class="achievement-text">
+                <h4>LeetCode & CodeChef Rankings</h4>
+                <p>LeetCode Ranking: 1407<br>CodeChef Ranking: 1060</p>
+              </div>
+            </div>
+            <div class="achievement-card">
+              <div class="achievement-icon">
+                <img src="https://cdn.worldvectorlogo.com/logos/hackerrank.svg" alt="HackerRank">
+              </div>
+              <div class="achievement-text">
+                <h4>5⭐️ Coder</h4>
+                <p>Earned 5-star rating on HackerRank in C++ programming.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="resume-actions">
+          <button id="downloadBtn" class="action-btn">⬇️ Download PDF</button>
+        </section>
+      </article>
+
+      <article class="my-work" data-page="my-work">
+        <header>
+          <h2 class="h2 article-title">My Work</h2>
         </header>
         <section class="projects">
           <ul class="filter-list">
@@ -577,23 +456,22 @@ slides.forEach(slide => {
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="images/WebDesign-1.png" alt="finance" loading="lazy">
+                  <img src="images/WebDesign-1.png" alt="Waste Management Website" loading="lazy">
                 </figure>
                 <h3 class="project-title">Waste Management Website</h3>
                 <p class="project-category">Web Design</p>
               </a>
             </li>
-
             <li class="project-item active" data-filter-item data-category="web development">
               <a href="https://humtum.onrender.com/">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="images/humtum.png" alt="fundo" loading="lazy">
+                  <img src="images/humtum.png" alt="Restaurant POS System" loading="lazy">
                 </figure>
                 <h3 class="project-title">Restaurant POS System</h3>
-                <p class="project-category">Web development</p>
+                <p class="project-category">Web Development</p>
               </a>
             </li>
             <li class="project-item active" data-filter-item data-category="graphic design">
@@ -602,10 +480,10 @@ slides.forEach(slide => {
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="images/graphic-3.png" alt="fundo" loading="lazy">
+                  <img src="images/graphic-3.png" alt="Dandiya Night" loading="lazy">
                 </figure>
                 <h3 class="project-title">Dandiya Night</h3>
-                <p class="project-category">Graphic design</p>
+                <p class="project-category">Graphic Design</p>
               </a>
             </li>
             <li class="project-item active" data-filter-item data-category="graphic design">
@@ -614,7 +492,7 @@ slides.forEach(slide => {
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="images/Graphic-1 .jpg" alt="AmritOxy" loading="lazy">
+                  <img src="images/Graphic-1 .jpg" alt="AmritOx" loading="lazy">
                 </figure>
                 <h3 class="project-title">AmritOx</h3>
                 <p class="project-category">Graphic Design</p>
@@ -626,21 +504,9 @@ slides.forEach(slide => {
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="images/Graphic-2.jpg" alt="dsm." loading="lazy">
+                  <img src="images/Graphic-2.jpg" alt="SRU" loading="lazy">
                 </figure>
                 <h3 class="project-title">SRU</h3>
-                <p class="project-category">Graphic Design</p>
-              </a>
-            </li>
-            <li class="project-item active" data-filter-item data-category="graphic design">
-              <a href="https://www.canva.com/design/DAGiLm61EJc/hH1Yr7JQy_qWHFvuzAd36Q/view?utm_content=DAGiLm61EJc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0b337ae152">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="images/Graphic-3.jpg" alt="metaspark" loading="lazy">
-                </figure>
-                <h3 class="project-title">Soulo</h3>
                 <p class="project-category">Graphic Design</p>
               </a>
             </li>
@@ -650,7 +516,7 @@ slides.forEach(slide => {
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="images/graphic-4.jpg" alt="metaspark" loading="lazy">
+                  <img src="images/graphic-4.jpg" alt="Dandiya Night" loading="lazy">
                 </figure>
                 <h3 class="project-title">Dandiya Night</h3>
                 <p class="project-category">Graphic Design</p>
@@ -659,6 +525,7 @@ slides.forEach(slide => {
           </ul>
         </section>
       </article>
+
       <article class="projects" data-page="projects">
         <header>
           <h2 class="h2 article-title">Projects</h2>
@@ -667,13 +534,13 @@ slides.forEach(slide => {
           <ul class="project-cards">
             <li class="project-card">
               <div class="project-banner">
-                <img src="images/humtum.png" alt="Health Monitoring Website" loading="lazy">
+                <img src="images/humtum.png" alt="Resturant POS System" loading="lazy">
                 <div class="banner-overlay"></div>
               </div>
               <div class="project-content">
                 <h3 class="h3 project-title">Resturant POS System</h3>
                 <p class="project-text">
-                 A full-featured restaurant POS platform with table management, order handling, invoice generation, invoice history management, and staff management.
+                  A full-featured restaurant POS platform with table management, order handling, invoice generation, invoice history management, and staff management.
                 </p>
                 <div class="tech-stack">
                   <span>HTML</span>
@@ -686,8 +553,8 @@ slides.forEach(slide => {
                   <span>MongoDB</span>
                 </div>
                 <div class="project-links">
-                  <a href="https://humtum.onrender.com/" target="_blank" class="btn primary-btn">🌐 Live</a>
-                  <a href="https://github.com/trooooperr" target="_blank" class="btn github-btn">💻 GitHub</a>
+                  <a href="https://humtum.onrender.com/" target="_blank" class="btn primary-btn">Live</a>
+                  <a href="https://github.com/trooooperr" target="_blank" class="btn github-btn">GitHub</a>
                 </div>
               </div>
             </li>
@@ -699,7 +566,7 @@ slides.forEach(slide => {
               <div class="project-content">
                 <h3 class="h3 project-title">ShramSetu Platform</h3>
                 <p class="project-text">
-                  A digital labor hiring system connecting workers and users directly with bidding & AI pricing suggestions.
+                  Developed the frontend of a digital labor hiring system connecting workers and users directly with bidding functionality.
                 </p>
                 <div class="tech-stack">
                   <span>HTML</span>
@@ -712,21 +579,20 @@ slides.forEach(slide => {
                   <span>MongoDB</span>
                 </div>
                 <div class="project-links">
-                  <a href="https://shramsetu.onrender.com" target="_blank" class="btn primary-btn">🌐 Live</a>
-                  <a href="https://github.com/trooooperr/shramsetu" target="_blank" class="btn github-btn">💻 GitHub</a>
+                  <a href="https://shramsetu.onrender.com" target="_blank" class="btn primary-btn">Live</a>
+                  <a href="https://github.com/trooooperr/shramsetu" target="_blank" class="btn github-btn">GitHub</a>
                 </div>
               </div>
             </li>
-
             <li class="project-card">
               <div class="project-banner">
-                <img src="images/project-5.png" alt="Health Monitoring Website" loading="lazy">
+                <img src="images/project-5.png" alt="Mercedes Clone" loading="lazy">
                 <div class="banner-overlay"></div>
               </div>
               <div class="project-content">
                 <h3 class="h3 project-title">Mercedes Clone</h3>
                 <p class="project-text">
-                A full-featured Mercedes clone website with interactive car catalog, model exploration, customization options, booking requests.
+                  Developing a full-featured Mercedes clone website with an interactive car catalog, model exploration, customization options, and booking requests.
                 </p>
                 <div class="tech-stack">
                   <span>HTML</span>
@@ -736,34 +602,43 @@ slides.forEach(slide => {
                   <span>Github</span>
                 </div>
                 <div class="project-links">
-                  <a href="https://mercedesclone.vercel.app/" target="_blank" class="btn primary-btn">🌐 Live</a>
-                  <a href="https://github.com/trooooperr/mercedes-clone" target="_blank" class="btn github-btn">💻 GitHub</a>
+                  <a href="https://mercedesclone.vercel.app/" target="_blank" class="btn primary-btn">Live</a>
+                  <a href="https://github.com/trooooperr/mercedes-clone" target="_blank" class="btn github-btn">GitHub</a>
                 </div>
               </div>
             </li>
-
           </ul>
         </section>
       </article>
+
       <article class="contact" data-page="contact">
         <header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
-
-<section class="contact-form">
-  <h3 class="form-title">Contact Form</h3>
-  <form class="form" method="post" action="/create">
-    <div class="input-wrapper">
-      <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
-      <input type="email" name="email" class="form-input" placeholder="Email address" required>
-    </div>
-    <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
-    <button class="form-btn" type="submit">
-      <ion-icon name="paper-plane"></ion-icon>
-      <span>Send Message</span>
-    </button>
-  </form>
-</section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="https://formspree.io/f/mgvlpjdb" class="form" data-form method="POST">
+            <input type="hidden" name="_next" value="https://yourportfolio.com/contact">
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <p class="form-status" id="form-status"></p>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+        <div class="success-dialogue-overlay" id="success-overlay">
+          <div class="success-dialogue-box">
+            <ion-icon name="checkmark-circle-outline" class="dialogue-icon"></ion-icon>
+            <h4 class="dialogue-title">Message Sent!</h4>
+            <p class="dialogue-message">Thanks for reaching out! I'll get back to you as soon as possible.</p>
+            <button class="dialogue-close-btn" id="close-dialogue-btn">Close</button>
+          </div>
+        </div>
       </article>
     </div>
   </main>
@@ -771,5 +646,4 @@ slides.forEach(slide => {
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
-
 </html>
